@@ -1,2 +1,2 @@
-Styled Components
+# Styled Components
 Learning Styled Components by example
