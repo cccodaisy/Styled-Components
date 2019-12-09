@@ -9,15 +9,18 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+const Card = styled.div`
+  background-color: red;
+`;
+
 const Container = styled.div`
   height: 100vh;
   width: 100%;
   background-color: pink;
-`;
-
-const Card = styled.div`
-  background-color: red;
-`;
+  ${Card}:last-child {
+    background-color: blue;
+  }
+`;/* Nesting : ${sth} {css code} */
 
 const Button = styled.button`
   border-radius: 30px; 
